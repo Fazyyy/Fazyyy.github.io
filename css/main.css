@@ -212,6 +212,12 @@ h1,h2,h3,h4,h5,h6 {
     border-width: 2px;
 }
 
+@media(max-width:600px) {
+    .nav-tabs .nav-link {
+        font-size: 1.4em;
+    }
+}
+
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border-color: #222;
 }
@@ -250,6 +256,18 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 15px;
     font-family: Anton;
     transition: 0.5s ease;
+}
+
+@media(max-width:600px) {
+
+    .parallax {
+        background-attachment: initial;
+        height: 60vh;
+        background-position: right top;
+    }
+    .parallax p a {
+        font-size: 1.2em;
+    }
 }
 
 .parallax p a:hover {
