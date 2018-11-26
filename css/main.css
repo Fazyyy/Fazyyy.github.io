@@ -175,6 +175,19 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:15px;
 }
 
+.slick-slide {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.slick-slide:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
