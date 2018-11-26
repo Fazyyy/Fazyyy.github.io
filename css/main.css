@@ -233,7 +233,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .tab-pane {
-    padding: 15px 0;
+    padding: 15px;
 }
 
 .parallax {
@@ -285,6 +285,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .blog {
     padding: 50px 0;
+    overflow:hidden;
 }
 
 .blog-img {
@@ -295,16 +296,14 @@ h1,h2,h3,h4,h5,h6 {
     transition: 0.5s ease;
     overflow:hidden;
     position: relative;
-    max-width: 50%;
     border: 5px solid #fff;
 }
 
-.blog-img img {
-    transition: 0.5s ease;
-}
-
-.blog-img:hover img {
-    transform: scale(1.1);
+@media(max-width:600px) {
+    .blog-img {
+        border:none;
+        margin-bottom:15px;
+    }
 }
 
 .blog-desc {
@@ -325,6 +324,13 @@ h1,h2,h3,h4,h5,h6 {
 .blog-desc p, .blog-desc h2 {
     color: #222;
     max-width: 60%;
+}
+
+@media(max-width:600px) {
+    .blog-desc p, .blog-desc h2 {
+        padding-left: 15px;
+        max-width: 80%;
+    }
 }
 
 .blog-desc p a {
