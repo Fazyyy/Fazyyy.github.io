@@ -147,9 +147,32 @@ h1,h2,h3,h4,h5,h6 {
     padding: 100px 0;
 }
 
+.testimonials {
+    padding: 100px 0;
+}
+
 .testimonials div {
     text-align: center;
-    padding: 15px;
+}
+
+.testimonials div p {
+    position: relative;
+    font-size: 4em;
+    line-height: 1;
+    padding: 15px
+}
+
+@media(max-width:600px) {
+    .testimonials div p {
+        font-size: 2em;
+    }
+}
+
+.testimonials div p span {
+    font-style: italic;
+    font-size: 0.6em;
+    display:block;
+    padding-top:15px;
 }
 
 /* ==========================================================================
