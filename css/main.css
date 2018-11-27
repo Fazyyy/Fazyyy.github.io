@@ -158,6 +158,10 @@ h1,h2,h3,h4,h5,h6 {
     padding: 100px 0;
 }
 
+.intro img {
+    padding: 25px 0;
+}
+
 .testimonials {
     padding: 100px 0;
 }
@@ -218,7 +222,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media(max-width:600px) {
     .nav-tabs .nav-link {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 }
 
@@ -317,8 +321,16 @@ h1,h2,h3,h4,h5,h6 {
     transform: translate(0,100%);
 }
 
-.blog-img:hover .blog-desc {
-    transform: translate(0,0);
+@media(min-width:601px){
+    .blog-img:hover .blog-desc {
+        transform: translate(0,0);
+    }
+}
+
+@media(max-width:600px){
+    .inView {
+        transform: translate(0,0);
+    }
 }
 
 .blog-desc p, .blog-desc h2 {
@@ -359,6 +371,16 @@ footer {
 footer p {
     color: #fff;
     margin: 0;
+}
+
+footer p a, footer p a:hover {
+    color: #fff;
+}
+
+@media(min-width:601px){
+    footer .right {
+        text-align: right;
+    }    
 }
 
 .scrollTop {
