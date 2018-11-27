@@ -351,6 +351,44 @@ h1,h2,h3,h4,h5,h6 {
     background: #fff;
 }
 
+footer {
+    background: #222;
+    padding: 15px 0;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 15px;
+    right:15px;
+    height:40px;
+    width:40px;
+    background: #222;
+    border: 2px solid #fff;
+    text-align:center;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.scrollTop i {
+    color: #fff;
+    margin-top:8px;
+    transition: 0.5s ease;
+}
+
+.scrollTop:hover {
+    border: 2px solid #222;
+    background: #fff;
+}
+
+.scrollTop:hover i {
+    color: #222;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
