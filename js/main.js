@@ -50,6 +50,15 @@ $(window).scroll(function(event) {
       el.removeClass("visible");
     }
   });
+
+  $(".fade-in").each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("visible"); 
+    } else {
+      el.removeClass("visible");
+    }
+  });
   
 });
 

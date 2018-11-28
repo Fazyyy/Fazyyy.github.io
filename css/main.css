@@ -737,6 +737,14 @@ canvas{
     color: #fff;
 }
 
+.blog-main {
+    padding: 50px 0;
+}
+
+.project-desc {
+    padding: 50px 15px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -772,6 +780,36 @@ canvas{
 
 .button-main:hover i {
     right:5px;
+}
+
+.button-main-inverted {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    padding-right:45px;
+    margin-top:15px;
+    font-weight:700;
+    position: relative;
+    display:block;
+    width: 130px;
+    border-radius:5px;
+}
+
+.button-main-inverted:hover {
+    color: #fff;
+}
+
+.button-main-inverted i {
+    transition: right 0.5s ease;
+    position: absolute;
+    right:20px;
+    top:50%;
+    transform: translate(0,-50%);
+}
+
+.button-main-inverted:hover i {
+    right:5px;
+    color: #fff;
 }
 
 .dark-bg h1,
@@ -963,4 +1001,13 @@ canvas{
     h3 {
         page-break-after: avoid;
     }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
 }
