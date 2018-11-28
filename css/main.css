@@ -515,8 +515,9 @@ canvas{
 }
 
 .particles-container {
-    padding: 0;
+    padding: 50px 0;
     position: relative;
+    overflow:hidden;
 }
 
 .particles-container .container-fluid {
@@ -525,6 +526,7 @@ canvas{
     pointer-events: none;
 }
 
+.particles-container h2,
 .particles-container h3 {
     padding-bottom: 25px;
 }
@@ -537,7 +539,73 @@ canvas{
     color: #fff;
 }
 
+.focus {
+    padding: 100px 0;
+    overflow:hidden;
+}
 
+.hex-wrap {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hexagon {
+    background-color: #222;
+    height: 100px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hexagon::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+    height: 100px;
+    width: inherit;
+    content: '';
+    transform: rotateZ(60deg);
+    z-index: -1;
+}
+
+.hexagon::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+    height: 100px;
+    width: inherit;
+    content: '';
+    transform: rotateZ(-60deg);
+    z-index: -1;
+}
+
+.hexagon i {
+    color: #fff;
+    font-size: 3em;
+}
+
+.focus .desc {
+    text-align:center;
+}
+
+.focus .desc h2 {
+    padding: 15px 0 5px 0;
+}
+
+.focus .desc p {
+    padding: 0 15px;
+}
 
 /* ==========================================================================
    Helper classes
