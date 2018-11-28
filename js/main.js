@@ -52,3 +52,7 @@ $(window).scroll(function(event) {
   });
   
 });
+
+$( "#menu-toggle" ).click(function() {
+  $( ".mobile-menu" ).toggleClass( "open" );
+});
