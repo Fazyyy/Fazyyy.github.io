@@ -491,6 +491,57 @@ footer p a, footer p a:hover {
     color: #222;
 }
 
+/* ---- particles.js container ---- */
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+  min-height:100vh;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height:100vh;
+}
+
+.particles-container {
+    padding: 0;
+    position: relative;
+}
+
+.particles-container .container-fluid {
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    padding-top:100px;
+    background: rgba(0,0,0,0.6);
+    pointer-events: none;
+}
+
+.particles-container h3 {
+    padding-bottom: 25px;
+}
+
+.particles-container h2,
+.particles-container h3,
+.particles-container h4,
+.particles-container p,
+.particles-container ul li {
+    color: #fff;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
