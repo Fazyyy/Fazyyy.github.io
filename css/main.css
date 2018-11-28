@@ -137,6 +137,12 @@ nav a {
     list-style-type: none;
 }
 
+@media(max-width: 600px) {
+    .upper-nav {
+        display:none;
+    }
+}
+
 .upper-nav li {
     display:inline-block;
     padding: 0 5px;
@@ -343,9 +349,9 @@ nav a {
     width: 200px;
     background: #fff;
     color: #222;
-    font-size: 4em;
+    font-size: 2.5em;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-family: Anton;
     transition: 0.5s ease;
 }
@@ -368,7 +374,7 @@ nav a {
 }
 
 .blog {
-    padding: 50px 0;
+    padding: 100px 0 50px 0;
     overflow:hidden;
 }
 
@@ -476,6 +482,12 @@ footer p a, footer p a:hover {
     transition: 0.5s ease;
 }
 
+@media(max-width:600px) {
+    .scrollTop {
+        display:none;
+    }
+}
+
 .scrollTop i {
     color: #fff;
     margin-top:8px;
@@ -515,9 +527,13 @@ canvas{
 }
 
 .particles-container {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
     position: relative;
     overflow:hidden;
+}
+
+.particles-container img {
+    padding-bottom: 25px;
 }
 
 .particles-container .container-fluid {
@@ -605,6 +621,15 @@ canvas{
 
 .focus .desc p {
     padding: 0 15px;
+}
+
+.hexagon-block {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.hexagon-block.visible {
+    opacity: 1;
 }
 
 /* ==========================================================================
