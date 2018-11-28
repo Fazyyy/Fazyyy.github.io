@@ -53,6 +53,6 @@ $(window).scroll(function(event) {
   
 });
 
-$( "#menu-toggle" ).click(function() {
-  $( ".mobile-menu" ).toggleClass( "open" );
+$("#menu-toggle").click(function() {
+  $(".mobile-menu").toggleClass("open");
 });

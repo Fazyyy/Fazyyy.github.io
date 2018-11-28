@@ -717,6 +717,26 @@ canvas{
     opacity: 1;
 }
 
+.work-banner {
+    background-image: url('../img/banner-bg-3.jpg');
+    height:50vh;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.work-banner .container {
+    position: relative;
+    height: 100%;
+}
+
+.work-banner h2 {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: #fff;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
