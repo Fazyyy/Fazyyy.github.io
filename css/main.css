@@ -568,8 +568,7 @@ footer p a, footer p a:hover {
 }
 
 @media(max-width:600px) {
-    .scrollTop {
-        display:none;
+    .scrollTop {display:none;
     }
 }
 
