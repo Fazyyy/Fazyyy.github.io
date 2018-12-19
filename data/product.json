@@ -1,74 +1,74 @@
 [
   {
     "name": "Nature Patterned Envelope Files",
-    "price": 100,
+    "price": 1.00,
     "was_price": false,
     "reviews": 90,
     "img": 1
   }, {
     "name": "Manhatten Veneer Photobook",
-    "price": 799,
-    "was_price": 999,
+    "price": 7.99,
+    "was_price": 9.99,
     "reviews": 70,
     "img": 2
   }, {
     "name": "Really Useful Box",
-    "price": 799,
-    "was_price": 999,
+    "price": 7.99,
+    "was_price": 9.99,
     "reviews": false,
     "img": 3
   }, {
     "name": "Silver Mesh Tier Drawers",
-    "price": 2599,
+    "price": 25.99,
     "was_price": false,
     "reviews": 80,
     "img": 4
   }, {
     "name": "14 Litre Waste Bin - Warm Grey",
-    "price": 299,
+    "price": 2.99,
     "was_price": false,
     "reviews": 30,
     "img": 5
   }, {
     "name": "Punched Folder Pockets",
-    "price": 100,
-    "was_price": 200,
+    "price": 1.00,
+    "was_price": 2.00,
     "reviews": 70,
     "img": 6
   }, {
     "name": "Natural Look Photo Album",
-    "price": 899,
-    "was_price": 1199,
+    "price": 8.99,
+    "was_price": 11.99,
     "reviews": false,
     "img": 7
   }, {
     "name": "Faux Leather Desk Organiser",
-    "price": 1199,
+    "price": 11.99,
     "was_price": false,
     "reviews": false,
     "img": 8
   }, {
     "name": "14 Litre Waste Bin - Peppermint",
-    "price": 299,
-    "was_price": 399,
+    "price": 2.99,
+    "was_price": 3.99,
     "reviews": 80,
     "img": 9
   }, {
     "name": "Flexi Cover Pocket Display Book",
-    "price": 249,
+    "price": 2.49,
     "was_price": false,
     "reviews": false,
     "img": 10
   }, {
     "name": "Duo Leather Photo Album",
-    "price": 1199,
+    "price": 11.99,
     "was_price": false,
     "reviews": false,
     "img": 11
   }, {
     "name": "Silver Mesh Four Drawer Chest",
-    "price": 899,
-    "was_price": 1199,
+    "price": 8.99,
+    "was_price": 11.99,
     "reviews": false,
     "img": 12
   }
